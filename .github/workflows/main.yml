@@ -2,7 +2,7 @@ name: A workflow for myWeApp Application
 on: push
 jobs:
   build-job:
-    name: myWeApp action
+    name: myWebApp action
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
