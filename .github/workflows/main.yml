@@ -1,0 +1,14 @@
+name: A workflow for myWeApp Application
+on: push
+jobs:
+  build-job:
+    name: myWebApp action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      name: Check out code
+    - name: print Hello
+      run: echo Hello World
+    - name: Print index.html
+      run: cat index.html
+      
